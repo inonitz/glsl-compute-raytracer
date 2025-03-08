@@ -49,7 +49,7 @@ Same as my template project, **[premake5-workspace-template](https://github.com/
   * Define these environment variables (in your PATH):
     * LLVMInstallDir
     * LLVMToolsVersion
-* Powershell / Any Standard unix-shell **(If you're compiling an executable)**
+* Powershell / Any Standard unix-shell
 
 ### Installation
 ```sh
