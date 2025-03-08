@@ -1,7 +1,7 @@
-#include "2compute_screen/compute_screen.hpp"
+#include "mglwstrip/texwork.hpp"
 
 
 int main()
 {
-    return compute_shader_render_to_screen();
+    return make_texture_resize_work();
 }

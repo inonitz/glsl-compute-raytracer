@@ -1,5 +1,6 @@
 #include "internal_instance.hpp"
 #include "internal_state.hpp"
+#include "util/marker2.hpp"
 #include "util/util.hpp"
 
 
@@ -15,6 +16,7 @@ AWC2Data* __awc2_lib_get_instance()
 }
 
 AWC2ContextData& __awc2_lib_get_context(unsigned char id) {
+    ifcrashfmt_debug(id == 0xFF, "Didn't bind an active context!");
     return __library_local_data.poolmem[--id];
 }
 

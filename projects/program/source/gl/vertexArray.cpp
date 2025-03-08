@@ -175,8 +175,8 @@ void VertexArray::createCommon(Buffer& Vertices)
 void VertexArray::create(Buffer& Vertices, Buffer& Indices)
 {
 	m_ebo = Indices.m_id;
-	gl::glVertexArrayElementBuffer(m_vao, Indices.m_id);
 	createCommon(Vertices);
+	gl::glVertexArrayElementBuffer(m_vao, Indices.m_id);
 
 	m_renderData = {
 		Indices.m_info.count,
