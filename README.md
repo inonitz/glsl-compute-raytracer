@@ -21,7 +21,7 @@
 ## About The Project
 Implementation of [Raytracing in a weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)  
 Old Raytracing project of mine, combined with **a lot** of unfinished frameworks I had been building/using  
-Most of the code written here ended up in my glsl-compute-raytracer  
+Most of the code written here ended up in my premake5-workspace-template project on the with-subprojects branch
 Migrated the latest branch ```WIP_RaytracerScene``` to the template workspace
 
 
